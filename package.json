@@ -1,0 +1,32 @@
+{
+  "name": "websocket_chatroom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "material-kit-react": "^1.9.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hot-loader": "^4.12.21",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "@neutrinojs/jest": "^9.3.0",
+    "@neutrinojs/react": "^9.3.0",
+    "jest": "^26.2.1",
+    "neutrino": "^9.3.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
