@@ -19,11 +19,6 @@ const userInput = (props) => {
             />
       </div>
     );
-    // return <input
-    //     type="text"
-    //     style={inputStyle}
-    //     onChange={props.changed}
-    //     value={props.currentName} />;
 };
 
 export default userInput;
